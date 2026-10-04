@@ -1,0 +1,10 @@
+{
+  "name": "MuziDynamic – See the Sound",
+  "short_name": "MuziDynamic",
+  "description": "Pembelajaran muzik interaktif untuk dinamik p, mp, mf, f, crescendo dan decrescendo.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#8b5cf6"
+}

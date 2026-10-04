@@ -1,0 +1,17 @@
+MuziDynamic v29 — Adaptive Microphone
+
+PERUBAHAN:
+- Selepas Aktifkan Mikrofon, pengguna hanya perlu SENYAP selama 3 saat.
+- Noise floor peranti/persekitaran diukur automatik.
+- Tiada lagi keperluan menghasilkan p, mp, mf dan f untuk calibration.
+- Offset peranti kini boleh menangani perbezaan gain yang jauh lebih besar.
+- Noise floor menyesuaikan diri perlahan-lahan apabila keadaan bilik berubah,
+  tetapi hanya ketika input kekal hampir kepada bunyi persekitaran.
+- Paparan dB ditandakan sebagai dB relatif, bukan dB SPL mutlak.
+- Semua fungsi v28, offline/PWA, video embedded, confetti dan sijil dikekalkan.
+
+UPLOAD KE GITHUB:
+Replace index.html lama dengan index.html v29 ini.
+Replace service-worker.js lama dengan service-worker.js v29 ini.
+manifest.json boleh replace juga.
+Selepas GitHub deploy, buka online dan refresh sekali sebelum test offline.
